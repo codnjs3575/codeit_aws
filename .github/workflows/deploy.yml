@@ -26,7 +26,7 @@ jobs:
             set -e
             cd /home/ubuntu/codeit_aws
             rm -rf .env 
-            git pull origin main
+            git pull origin master
             # 루트 경로에 .env 파일을 만든다.
             echo "$ENV" > .env
             pm2 kill
