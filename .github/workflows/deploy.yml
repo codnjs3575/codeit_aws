@@ -24,7 +24,7 @@ jobs:
           envs: ENV
           script: |
             set -e
-            cd /home/ubuntu/nextjs-aws-test 
+            cd /home/ubuntu/codeit_aws
             rm -rf .env 
             git pull origin main
             # 루트 경로에 .env 파일을 만든다.
