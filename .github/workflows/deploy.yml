@@ -5,7 +5,7 @@ name: EC2로 자동배포하기
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
